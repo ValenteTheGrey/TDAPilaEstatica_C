@@ -27,6 +27,7 @@ void crearPila(tPila* p);
 int poneEnPila(tPila* p, const void* d, size_t tamDato);
 int sacarDePila(tPila* p, void* d, size_t tamData);
 int esPilaVacia(const tPila* p);
+int esPilaLlena(const tPila* p, size_t tamDato);
 int verTopeDePila(const tPila* p, void* d, size_t tamDato);
 void vaciarPila(tPila* p);
 
