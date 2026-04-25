@@ -4,7 +4,7 @@
 
 #include "PilaEstatica.h"
 
-void crearPila(tPila* p, const void* d, size_t tamDato)
+void crearPila(tPila* p)
 {
     p->tope = TAM;
 }
