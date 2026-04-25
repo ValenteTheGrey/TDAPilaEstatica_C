@@ -23,7 +23,7 @@ typedef struct
 }tPila;
 
 
-void crearPila(tPila* p, const void* d, size_t tamDato);
+void crearPila(tPila* p);
 int poneEnPila(tPila* p, const void* d, size_t tamDato);
 int sacarDePila(tPila* p, void* d, size_t tamData);
 int verTopeDePila(const tPila* p, void* d, size_t tamDato);
